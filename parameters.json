@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workbooks_b568b9e6_b5ca_43b2_a0af_dc5ff822e027_serializedData": {
+            "value": null
+        },
+        "workbooks_b9995301_4a81_4e2f_a285_1fa0257b3029_serializedData": {
+            "value": null
+        },
+        "virtualMachines_Target_MACHINE_name": {
+            "value": null
+        },
+        "storageAccounts_attackoverview_name": {
+            "value": null
+        },
+        "publicIPAddresses_Target_MACHINE_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_Target_MACHINE_vnet_name": {
+            "value": null
+        },
+        "workspaces_LogForTarget_name": {
+            "value": null
+        },
+        "networkInterfaces_target_machine293_z1_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Target_MACHINE_nsg_name": {
+            "value": null
+        },
+        "solutions_Security_LogForTarget__name": {
+            "value": null
+        },
+        "workbooks_b568b9e6_b5ca_43b2_a0af_dc5ff822e027_name": {
+            "value": null
+        },
+        "workbooks_b9995301_4a81_4e2f_a285_1fa0257b3029_name": {
+            "value": null
+        },
+        "solutions_SecurityInsights_logfortarget__name": {
+            "value": null
+        },
+        "solutions_SecurityCenterFree_LogForTarget__name": {
+            "value": null
+        }
+    }
+}
