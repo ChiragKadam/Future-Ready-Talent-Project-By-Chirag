@@ -1,0 +1,19 @@
+[ READ CAREFULLY ] -
+
+This Project Is Completely Based On Azure Portal As A Result It Cannot Be Shared Via Link As It Will Ask The User For Acceess Whoever Will Open It Thats Why I Have Uploaded The Project Using 
+
+In this project I have used multiple Azure Services including- 
+1)Microsoft Defender For Cloud.
+2)Microsoft Sentinel
+3)Windows Virtual Machine
+4)Log Analytics Workspace
+
+Other Sevices-
+Poweshell Scripts
+Microsoft Event Viewer
+
+Using the following Services I have created a SIEM Security Project where- 
+I have used a Virtual Machine which will act as a Honeypot meaning it will be our target machine for all the attackers.
+Using the logs from Evet Viewer I have created a Powershell Script which will extract the Logs from the Security Section of the Event Viewer which can be then made to get the longitude, latitude and other information which will be needed to plot the area on the Map further in Sentinel for which we will be using a API named- ipgeolocation.io.
+This extracted data from the Virtual Machine is then used in Log Analytics Workspace where another script is used to sort this data in useful fields from a String of Data to meaningful information such as Longitude, Latitude, Country, Time, IP Address, etc.
+This Meaningful Information from Log Analytics Workspace LOG is then used in the Microsoft Sentinel to show a Visual Representation of our data in the form of MAP.
